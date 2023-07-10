@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>bootstrap learning</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="1000">
+  <!-- Navbar -->
+    <div class="navbar navbar-expand-sm mynavbar bg-warning sticky-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand "><i class="bi bi-cup-hot me-2"></i>Tea Boy</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myTarget"><span class="navbar-toggler-icon"></span></button>
+        <div class="navbar-collapse collapse" id="myTarget">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a href="#demo" class="nav-link">home <i class="bi bi-house-check text-dark"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#ourservices" class="nav-link">services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#ourcontacts" class="nav-link">contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#aboutus" class="nav-link">about <i class="bi bi-file-person text-dark"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="#investors" class="nav-link">Investors</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">tea <i class="bi bi-cup-hot"></i></a></li>
+                <li><a href="#" class="dropdown-item">black tea <i class="bi bi-cup-hot-fill"></i></a></li>
+                <li><a href="#" class="dropdown-item">coffee</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- coursel -->
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel" >
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+    
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="pexels-henry-&-co-3556225.jpg" alt="Los Angeles" class="d-block img-fluid">
+          <div class="carousel-caption">
+            <h3>Los Angeles</h3>
+            <p>We had such a great time in LA!</p>
+            <p><a class="btn btn-warning mt-4">Learn more</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="ginger-tea-recipe-2.webp" alt="Los Angeles" class="d-block " >
+          <div class="carousel-caption">
+            <h3>Los Angeles</h3>
+            <p>We had such a great time in LA!</p>
+            <p><a class="btn btn-warning mt-4">Learn more</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Black-Tea-2-1.jpg" alt="Los Angeles" class="d-block " >
+          <div class="carousel-caption">
+            <h3>Los Angeles</h3>
+            <p>We had such a great time in LA!</p>
+            <p><a class="btn btn-warning mt-4">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- Tea sections -->
+
+    <div class="container-fluid" id="aboutus">
+      <div class="row mt-3 mb-2 oursections">
+        <div class="col-md-4 col-lg-4 col-12  ">
+              <img src="istockphoto-1297483389-612x612.jpg" class="img-fluid mt-3 mb-3 rounded" alt="" >
+        </div>
+        <div class="col-md-8 col-lg-8 col-12   p-4 " id="topic-text">
+          <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2><br> Ipsa culpa iusto iure ullam fuga, blanditiis veritatis, nobis adipisci provident dignissimos quidem possimus quo repellat accusamus rerum modi alias! Quidem, reiciendis?
+          Vel ad consectetur ducimus officiis molestias totam dicta sequi, odio aperiam neque nulla minima quae, perferendis, mollitia assumenda ratione maiores? Fuga eveniet mollitia dolorem nemo debitis cumque eaque error voluptas!
+          <br><br><a class="btn btn-warning">learn more</a>
+        </div>
+      </div>
+      <div class="row mt-3 mb-2 oursections">
+        <div class="col-md-4 col-lg-4 col-12  ">
+              <img src="teacups.jpg" class="img-fluid mt-3 mb-3 rounded" alt="" height="800px" width="2000px">
+        </div>
+        <div class="col-md-8 col-lg-8 col-12   p-4 " id="topic-text">
+          <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2><br> Ipsa culpa iusto iure ullam fuga, blanditiis veritatis, nobis adipisci provident dignissimos quidem possimus quo repellat accusamus rerum modi alias! Quidem, reiciendis?
+          Vel ad consectetur ducimus officiis molestias totam dicta sequi, odio aperiam neque nulla minima quae, perferendis, mollitia assumenda ratione maiores? Fuga eveniet mollitia dolorem nemo debitis cumque eaque error voluptas!
+          <br><br><a class="btn btn-warning">learn more</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our services -->
+
+    <div class="container m-5" id="ourservices">
+      <div class="row mt-4 mb-2">
+        <div class="col-12 text-center services">
+          <h3>Our Services <i class="bi bi-person-gear"></i></h3>
+          <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <col-4 class="col-md-4 col-sm-12 mt-2 mb-4">
+          <div class="card bg-dark card-service">
+            <div class="card-body service-text text-center">
+              <h3><i class="bi bi-browser-edge"></i></h3>
+              <h4 class="mt-2">User Friendly</h4>
+              <p>Lorem ipsum dolor sit amet consecteatione nisi soluta voluptate, voluptatibus ipsam.</p>
+              <a class="btn btn-outline-warning">Read More</a>
+            </div>
+          </div>
+        </col-4>
+        <col-4 class="col-md-4 col-sm-12 mt-2 mb-4">
+        <div class="card bg-dark card-service">
+          <div class="card-body service-text text-center">
+            <h3><i class="bi bi-cup-hot-fill"></i></h3>
+            <h4 class="mt-2">Likes Everyone</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsum neque, possimus qui maxime fuga sint fugit minima, odio illum magni asperiores. Obcaecati iste ratione nisi soluta voluptate, voluptatibus ipsam.</p>
+            <a class="btn btn-outline-warning">Read More</a>
+          </div>
+        </div>
+        </col-4>
+        <col-4 class="col-md-4 col-sm-12 mt-2 mb-4">
+        <div class="card bg-dark card-service">
+          <div class="card-body service-text text-center">
+            <h3><i class="bi bi-currency-rupee"></i></h3>
+            <h4 class="mt-2">Moderate Cost</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, possimus qui maxime fuga sint fugit minima, odio illum magni asperiores. Obcaecati iste ratione nisi soluta voluptate, voluptatibus ipsam.</p>
+            <a class="btn btn-outline-warning">Read More</a>
+          </div>
+        </div>
+        </col-4>
+      </div>
+    </div>
+
+    <!-- our Investors -->
+
+    <div class="container-fluid m" id="investors">
+      <div class="row mt-4 mb-2">
+        <div class="col-12 text-center projects">
+          <h3>Our Investors <i class="bi bi-currency-dollar"></i></h3>
+          <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mb-3 ">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-lg-3 mt-2 mb-2">
+          <div class="card bg-light card-project">
+            <div class="card-body text-center-project text-center">
+              <img class="card-img-top mb-1" src="lalith-closed.jpg">
+              <h4>Anand</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis inventore sunt facere iste molestiae voluptatibus architecto repudiandae mollitia. Porro, autem. Facilis magnam et veniam ut! Quidem quam iure deserunt numquam?</p>
+              <div class="card-footer rounded"><span class="logo"><h4><i class="bi bi-twitter"></i><i class="bi bi-facebook"></i><i class="bi bi-linkedin"></i><i class="bi bi-instagram"></i></h4></span>
+              </div></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-lg-3 mt-2 mb-2">
+          <div class="card bg-light card-project">
+            <div class="card-body text-center-project text-center">
+              <img class="card-img-top mb-1" src="lalith-closed.jpg">
+              <h4>Jeeva</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis inventore sunt facere iste molestiae voluptatibus architecto repudiandae mollitia. Porro, autem. Facilis magnam et veniam ut! Quidem quam iure deserunt numquam?</p>
+              <div class="card-footer  rounded"><span class="logo"><h4><i class="bi bi-twitter"></i><i class="bi bi-facebook"></i><i class="bi bi-linkedin"></i><i class="bi bi-instagram"></i></h4></span>
+            </div></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-lg-3 mt-2 mb-2">
+          <div class="card bg-light card-project">
+            <div class="card-body text-center-project text-center">
+              <img class="card-img-top mb-1" src="lalith-closed.jpg">
+              <h4>Lalith</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis inventore sunt facere iste molestiae voluptatibus architecto repudiandae mollitia. Porro, autem. Facilis magnam et veniam ut! Quidem quam iure deserunt numquam?</p>
+              <div class="card-footer  rounded"><span class="logo"><h4><i class="bi bi-twitter"></i><i class="bi bi-facebook"></i><i class="bi bi-linkedin"></i><i class="bi bi-instagram"></i></h4></span>
+            </div></div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-lg-3 mt-2 mb-2">
+          <div class="card bg-light card-project">
+            <div class="card-body text-center-project text-center">
+              <img class="card-img-top mb-1" src="lalith-closed.jpg">
+              <h4>Mukesh</h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis inventore sunt facere iste molestiae voluptatibus architecto repudiandae mollitia. Porro, autem. Facilis magnam et veniam ut! Quidem quam iure deserunt numquam?</p>
+              <div class="card-footer  rounded"><span class="logo"><h4><i class="bi bi-twitter"></i><i class="bi bi-facebook"></i><i class="bi bi-linkedin"></i><i class="bi bi-instagram"></i></h4></span>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Contach Us -->
+
+    <div class="container-fluid" id="ourcontacts">
+      <div class="row mt-4 mb-2">
+        <div class="col-12 text-center services">
+          <h3>To Contact US <i class="bi bi-telephone-forward"></i></h3>
+          <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit.<br> +91 9344392721</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container ">
+      <form >
+        <div class="form-group m-1 p-2 mb-2">
+          <input type="text" class="form-control border mb-3" placeholder="Enter full name">
+          <input type="email" class="form-control border mb-3" placeholder="Enter email here">
+          <textarea rows="3" class="form-control border mb-4">Your Queries...</textarea>
+          <button class="btn btn-warning mb-2 w-100" >Send Now  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+            <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+          </svg></button>
+        </div>
+      </form>
+    </div>
+
+    <!-- footer -->
+
+    <div class="container-fluid mt-5 footer border  bg-dark">
+      <div class="row  text-center-footer text-center">
+          <p>All rights reserved  <i class="bi bi-c-circle"> 2023</i></p>
+      </div>
+    </div>
+
+    
+</body>
+<script src="script.js"></script>
+
+</html>
